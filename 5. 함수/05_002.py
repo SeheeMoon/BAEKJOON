@@ -18,6 +18,18 @@ lst_sub_non_self = [x for x in lst if x not in non_self]
 for x in lst_sub_non_self:
     print(x)
 
+natural_num = set(range(1,10001))
+generated_num = set()
+
+# for i in range(1, 10001):
+#     for j in str(i): # ex) i = 850, for문에서 str도 범위로 설정될 수 있구나.
+#         i += int(j)  # ex) 850 + 8 + 5 + 0 = 863
+#     generated_num.add(i)
+
+# self_num = sorted(natural_num - generated_num)
+# for i in self_num:
+#     print(i)
+
 
 
 
