@@ -26,7 +26,7 @@ for x in lst_sub_non_self:
 #         i += int(j)  # ex) 850 + 8 + 5 + 0 = 863
 #     generated_num.add(i)
 
-# self_num = sorted(natural_num - generated_num)
+# self_num = sorted(natural_num - generated_num) # set은 차집합을 구할 수 있음.
 # for i in self_num:
 #     print(i)
 
